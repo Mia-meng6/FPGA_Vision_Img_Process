@@ -1,0 +1,202 @@
+# ============================================================
+# FPGA Project .gitignore
+# Target: Altera/Intel (eHiWay) Quartus + ModelSim
+# ============================================================
+
+# ----------------------------------------------------------
+# Quartus build outputs (不要上传编译产物)
+# ----------------------------------------------------------
+*.sof                          # SRAM Object File (烧录文件, 每次编译重新生成)
+*.pof                          # Programmer Object File (Flash固化文件)
+*.jic                          # JTAG Indirect Configuration File
+*.rbf                          # Raw Binary File
+*.jam                          # Jam STAPL File
+*.jbc                          # Jam Byte-Code File
+*.ekp                          # Encryption Key Programming File
+*.ekp.ekp                      # Encrypted Key File
+
+# Quartus compilation database (编译中间数据库 - 数百MB)
+db/
+incremental_db/
+*.qdf                          # Quartus Default Settings File (自动生成)
+*.qarlog                       # Quartus Archive Log
+*.qws                          # Quartus Workspace
+*.dpf                          # Design Partition File
+*.psm                          # Power/Signal Management File
+
+# P&R / synthesis runs (综合/布局布线中间结果)
+camer_test.runs/
+*_assignment.rpt
+*.done
+*.summary
+*.pin
+*.sld
+*.qar                           # Quartus Archive
+*.qarlog
+
+# Partition reports (分区布局布线报告)
+camer_test.pr/
+*.pr/
+
+# Assembler reports (汇编报告)
+*.asm.rpt
+
+# STA / Timing reports (时序分析临时文件)
+*.sta.rpt
+*.sta.summary
+*.tcl
+
+# ----------------------------------------------------------
+# Simulation outputs (仿真输出 - 不提交波形/日志)
+# ----------------------------------------------------------
+simulation/
+*/simulation/
+*.wlf                           # ModelSim Waveform Log File
+*.vcd                           # Value Change Dump
+*.vpd                           # VCD Plus
+*.vcdplus
+*.tcl.history
+transcript                      # ModelSim transcript
+vsim.wlf
+work/                           # ModelSim compiled library
+*/work/
+*.mti
+*.mpf                           # ModelSim Project File
+modelsim.ini                    # (exclude if auto-generated)
+vlog.opt
+vsim.dbg
+*_modelsim.xrf                  # Cross-reference file
+
+# QuestaSim additional
+*.qwave.db
+*.qwave.qwave
+veloce.ini
+veloce.wave
+
+# VCS / other simulators
+*.daidir/
+*.vcs_sim/
+csrc/
+simv*
+ucli.key
+DVEfiles/
+*.tcl.history
+*.fsdb
+*.vfast
+*.vfat
+
+# ----------------------------------------------------------
+# Synthesis intermediate files
+# ----------------------------------------------------------
+*.srf                           # Synthesis Report File
+*.smf
+*.rtl
+*.rtl.xml
+*.cdc.rpt
+*.map.rpt
+*.map.summary
+*.fit.rpt
+*.fit.summary
+*.flow.rpt
+*.tq.rpt
+
+# netlist (综合/布局布线生成, 不需要版本管理)
+*.vo                            # Verilog Output netlist
+*.vho                           # VHDL Output netlist
+*.sdo                           # Standard Delay Format Output
+*.sft                           # Simulation Flow Template
+*.qsfx                          # QSF Extended
+
+# Hierarchy / netlist XML (自动生成的层次描述, 每次编译重新生成)
+hierarchy.xml
+
+# Cluster / placement info
+*_cluster.xml
+*_pack.tcl
+*_route.tcl
+*_bitgen.tcl
+*_bitgen_mb.tcl
+
+# ----------------------------------------------------------
+# IP Core generated files (partially excluded)
+# ----------------------------------------------------------
+# Keep: *.v wrapper, *.mif (initialization data)
+# Exclude: IP synthesis intermediate files
+*_simgen.tcl
+*.ipx
+*.ip_user_files/
+*.qsys_edit/
+*.sopcinfo
+*.cmp
+
+# Megafunction wizard generated backup
+*_bb.v
+*_inst.v
+*.inc
+
+# ----------------------------------------------------------
+# Editor and OS temp files
+# ----------------------------------------------------------
+# VSCode
+.vscode/
+!.vscode/settings.json          # (可选: 保留团队配置)
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Linux
+.directory
+
+# ----------------------------------------------------------
+# SignalTap / Debug
+# ----------------------------------------------------------
+*.stp
+*.stp.cmp
+stp*.stp
+
+# ----------------------------------------------------------
+# Archive / Backup
+# ----------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ----------------------------------------------------------
+# ePr (Project Report)
+# ----------------------------------------------------------
+*.epr
+
+# ----------------------------------------------------------
+# Temporary generated files from scripts
+# ----------------------------------------------------------
+*.log
+*.tmp
+*.bak
+
+# ----------------------------------------------------------
+# NOTE: Keep the following files (DO NOT ignore)
+# ----------------------------------------------------------
+# *.v        - Verilog source files
+# *.sv       - SystemVerilog source files
+# *.vhd      - VHDL source files
+# *.qpf      - Quartus Project File
+# *.qsf      - Quartus Settings File
+# *.edc/*.xdc/*.sdc - Constraint files
+# *.mif      - Memory Initialization Files
+# *.hex      - Intel HEX memory files
+# README.md  - Documentation
