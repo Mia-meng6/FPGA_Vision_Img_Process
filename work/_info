@@ -1,0 +1,436 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Auniversity/jcs/10/final_prj/ov5640_sdram2/camer_test_hsv_2/camer_test/rtl
+vCartoon_Smoothing_Filter
+Z1 !s110 1776497769
+!i10b 1
+!s100 4SHFl<OMPND==N`[gLSTK3
+IC@dC0D2CYISPA^jGhP^ah3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1776436744
+8image_basic\Cartoon_Smoothing_Filter.v
+Fimage_basic\Cartoon_Smoothing_Filter.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1776497769.000000
+Z5 !s107 sdram\sdram_write.v|sdram\sdram_top.v|sdram\sdram_read.v|sdram\sdram_init.v|sdram\sdram_ctrl.v|sdram\sdram_a_ref.v|sdram\sdram_arbit.v|sdram\fifo_ctrl.v|ov5640\ov5640_top.v|ov5640\ov5640_data.v|ov5640\ov5640_cfg.v|ov5640\i2c_ctrl.v|image_basic\VIP_Matrix_Generate_3X3_8Bit.v|image_basic\VIP_Matrix_Generate_3X3_1Bit.v|image_basic\RGB2HSV.v|image_basic\line_shift.v|image_basic\Line_Shift_RAM_8Bit.v|image_basic\key_filter.v|image_basic\Cartoon_Smoothing_Filter.v|vga_ctrl.v|ov5640_vga_640x480.v|
+Z6 !s90 ov5640_vga_640x480.v|vga_ctrl.v|image_basic\Cartoon_Smoothing_Filter.v|image_basic\key_filter.v|image_basic\Line_Shift_RAM_8Bit.v|image_basic\line_shift.v|image_basic\RGB2HSV.v|image_basic\VIP_Matrix_Generate_3X3_1Bit.v|image_basic\VIP_Matrix_Generate_3X3_8Bit.v|ov5640\i2c_ctrl.v|ov5640\ov5640_cfg.v|ov5640\ov5640_data.v|ov5640\ov5640_top.v|sdram\fifo_ctrl.v|sdram\sdram_arbit.v|sdram\sdram_a_ref.v|sdram\sdram_ctrl.v|sdram\sdram_init.v|sdram\sdram_read.v|sdram\sdram_top.v|sdram\sdram_write.v|
+!i113 1
+Z7 tCvgOpt 0
+n@cartoon_@smoothing_@filter
+vfifo_ctrl
+R1
+!i10b 1
+!s100 4;O]<50i7hB:VNGN38VB23
+IL5[RQBK96P6[e=Wl<KB_e0
+R2
+R0
+Z8 w1640252100
+8sdram\fifo_ctrl.v
+Fsdram\fifo_ctrl.v
+Z9 L0 20
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vi2c_ctrl
+R1
+!i10b 1
+!s100 _<PL>OTnHaghQ6NC;VLYA0
+I^JFZE<FPAN62Q?2L0TGa02
+R2
+R0
+R8
+8ov5640\i2c_ctrl.v
+Fov5640\i2c_ctrl.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vkey_filter
+R1
+!i10b 1
+!s100 G?idJV_lAK7VPKNWO1zc41
+Ia8fRe5C=U;NblJKfHOzmm0
+R2
+R0
+w1776148696
+8image_basic\key_filter.v
+Fimage_basic\key_filter.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vLine_Shift
+R1
+!i10b 1
+!s100 0e28hUR>Uez6`ZzPb[:[n3
+Ik?g^E[PB8f7?PZR]03bH30
+R2
+R0
+w1775827302
+8image_basic\line_shift.v
+Fimage_basic\line_shift.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@line_@shift
+vLine_Shift_RAM_8Bit
+R1
+!i10b 1
+!s100 TOO20^RW`WMk5L>NnH<J22
+IM<6^F`A9KS<Z@HWhodFO52
+R2
+R0
+w1774362687
+8image_basic\Line_Shift_RAM_8Bit.v
+Fimage_basic\Line_Shift_RAM_8Bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@line_@shift_@r@a@m_8@bit
+vov5640_cfg
+R1
+!i10b 1
+!s100 HkXI^bCLhaNm@RL:g:iof0
+IRA>Q9EYR2^BZO@zXzO]PZ1
+R2
+R0
+w1776227934
+8ov5640\ov5640_cfg.v
+Fov5640\ov5640_cfg.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vov5640_data
+R1
+!i10b 1
+!s100 k^^dW_M;@oKi@Ef1`cF2n0
+I0@F7M9@b<9VR3n[XoRUBd1
+R2
+R0
+R8
+8ov5640\ov5640_data.v
+Fov5640\ov5640_data.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vov5640_top
+R1
+!i10b 1
+!s100 ?ELSGUagT?E6nlGEW1XT?1
+IFdcTcfI_5YeekNnQdkNHd1
+R2
+R0
+R8
+8ov5640\ov5640_top.v
+Fov5640\ov5640_top.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vov5640_vga_640x480
+R1
+!i10b 1
+!s100 AX[LCnBlcB0YZ5nFAY?333
+IDC10>ARFZh=7WM[Y3U3n83
+R2
+R0
+w1776497696
+8ov5640_vga_640x480.v
+Fov5640_vga_640x480.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vRGB2HSV
+R1
+!i10b 1
+!s100 880NN=i]g@1H_3lQIGdV82
+IzfAK=fn]CWEXRila6eT@A3
+R2
+R0
+w1776497759
+8image_basic\RGB2HSV.v
+Fimage_basic\RGB2HSV.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@r@g@b2@h@s@v
+vsdram_a_ref
+R1
+!i10b 1
+!s100 LBW6VJHEcF><jL4<@^J=Z3
+I^PXI^MdWhIPAea=7V2g5k1
+R2
+R0
+R8
+8sdram\sdram_a_ref.v
+Fsdram\sdram_a_ref.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsdram_arbit
+R1
+!i10b 1
+!s100 R97OVGB3e<;fH6_5Jnc0A0
+IVDEk6<o5TDP:8PocFHEkP0
+R2
+R0
+R8
+8sdram\sdram_arbit.v
+Fsdram\sdram_arbit.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsdram_ctrl
+R1
+!i10b 1
+!s100 2`K]Kf]2=4S>TI?9@mP4[3
+Io_;f3oI:55FJXP^m^JmZa1
+R2
+R0
+R8
+8sdram\sdram_ctrl.v
+Fsdram\sdram_ctrl.v
+L0 19
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsdram_init
+R1
+!i10b 1
+!s100 Tj>c@1H^2^B<B?83hnF;[0
+ICQ=ZTQz=1PGDK`A74e``N1
+R2
+R0
+w1744708770
+8sdram\sdram_init.v
+Fsdram\sdram_init.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsdram_read
+R1
+!i10b 1
+!s100 6N<kz]_G]i;Tbe:3R08>42
+Ia96A9=BmQJPKSbSSmfdlV0
+R2
+R0
+R8
+8sdram\sdram_read.v
+Fsdram\sdram_read.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsdram_top
+R1
+!i10b 1
+!s100 jg9>NlVieN?^KXzjK3i`N0
+I<:b:Sa]QcQ4MPoA=TOlkm3
+R2
+R0
+R8
+8sdram\sdram_top.v
+Fsdram\sdram_top.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsdram_write
+R1
+!i10b 1
+!s100 8;4c9N>X::=KFa9RV98Hj1
+IB94Cm1O<?k?0_SNQoLWCC0
+R2
+R0
+R8
+8sdram\sdram_write.v
+Fsdram\sdram_write.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vvga_ctrl
+R1
+!i10b 1
+!s100 C5hdb=^lPZI7_9QXZn8fG2
+I>1N=PIb4<UFIF235I9l520
+R2
+R0
+R8
+8vga_ctrl.v
+Fvga_ctrl.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vVIP_Matrix_Generate_3X3_1Bit
+R1
+!i10b 1
+!s100 5FmDBX3]iZO73fmBiE9nI0
+I]ek1k7IczE5bIVJiOMe7]1
+R2
+R0
+w1773929042
+8image_basic\VIP_Matrix_Generate_3X3_1Bit.v
+Fimage_basic\VIP_Matrix_Generate_3X3_1Bit.v
+L0 34
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@v@i@p_@matrix_@generate_3@x3_1@bit
+vVIP_Matrix_Generate_3X3_8Bit
+R1
+!i10b 1
+!s100 R@D^[e8<?YAUSkkYMg`oN2
+I^f=X<lc2_SfZh9oWRM:BP3
+R2
+R0
+w1776436719
+8image_basic\VIP_Matrix_Generate_3X3_8Bit.v
+Fimage_basic\VIP_Matrix_Generate_3X3_8Bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@v@i@p_@matrix_@generate_3@x3_8@bit
